@@ -1,29 +1,10 @@
-# README #
+# Simple test for the Carousell Android app using Appium (with TestNG, Selenide and AssertJ) #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Quickstart ##
 
-### What is this repository for? ###
+You can build and run the project using Maven. Carousell login details need to be passed as system properties:
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+    mvn clean test -Dusername=abc -Dpassword=xxx
+	
+## Contact ##
+mart.schneider@gmail.com
