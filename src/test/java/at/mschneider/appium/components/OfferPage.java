@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import at.mschneider.appium.utils.ConfirmationDialog;
 import at.mschneider.appium.utils.PageFactory;
 
 /**

@@ -1,6 +1,7 @@
 package at.mschneider.appium.utils;
 
 import at.mschneider.appium.components.CategoryPage;
+import at.mschneider.appium.components.ConfirmationDialog;
 import at.mschneider.appium.components.DashboardPage;
 import at.mschneider.appium.components.ItemPage;
 import at.mschneider.appium.components.LoginPage;

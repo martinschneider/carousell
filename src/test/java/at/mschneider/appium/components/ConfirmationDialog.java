@@ -1,4 +1,4 @@
-package at.mschneider.appium.utils;
+package at.mschneider.appium.components;
 
 import static at.mschneider.appium.utils.SelectorHelper.byIdAndText;
 import static com.codeborne.selenide.Selenide.$;
