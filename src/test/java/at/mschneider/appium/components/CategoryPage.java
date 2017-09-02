@@ -2,7 +2,7 @@ package at.mschneider.appium.components;
 
 import org.openqa.selenium.By;
 
-import at.mschneider.appium.util.PageFactory;
+import at.mschneider.appium.utils.PageFactory;
 
 import static com.codeborne.selenide.Selenide.$;
 

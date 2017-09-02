@@ -1,4 +1,4 @@
-package at.mschneider.appium;
+package at.mschneider.appium.tests;
 
 import java.net.URL;
 import java.nio.file.Paths;
@@ -17,7 +17,7 @@ import io.appium.java_client.android.AndroidDriver;
 /**
  * Base class for Appium tests
  */
-public class AppiumTest
+public abstract class AppiumTest
 {
     public static WebDriver driver;
 

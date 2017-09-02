@@ -1,6 +1,6 @@
 package at.mschneider.appium.components;
 
-import static at.mschneider.appium.util.SelectorHelper.byIdAndText;
+import static at.mschneider.appium.utils.SelectorHelper.byIdAndText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -16,7 +16,7 @@ import io.appium.java_client.MobileBy;
 /**
  * Abstract base class for page objects
  */
-public class AbstractPage
+public abstract class AbstractPage
 {
     private static final String CHAT_MESSAGE = "com.thecarousell.Carousell:id/text_chat_action";
     private static final String CONFIRM_BUTTON = "com.thecarousell.Carousell:id/feature_button";

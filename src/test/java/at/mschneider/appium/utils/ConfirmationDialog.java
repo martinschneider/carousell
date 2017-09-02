@@ -1,6 +1,6 @@
-package at.mschneider.appium.util;
+package at.mschneider.appium.utils;
 
-import static at.mschneider.appium.util.SelectorHelper.byIdAndText;
+import static at.mschneider.appium.utils.SelectorHelper.byIdAndText;
 import static com.codeborne.selenide.Selenide.$;
 
 /**

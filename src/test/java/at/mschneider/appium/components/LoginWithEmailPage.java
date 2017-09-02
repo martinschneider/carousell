@@ -1,13 +1,13 @@
 package at.mschneider.appium.components;
 
-import static at.mschneider.appium.util.SelectorHelper.byIdAndText;
+import static at.mschneider.appium.utils.SelectorHelper.byIdAndText;
 import static com.codeborne.selenide.Selenide.$;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 
-import at.mschneider.appium.util.PageFactory;
+import at.mschneider.appium.utils.PageFactory;
 
 /**
  * Page object for the login with email page

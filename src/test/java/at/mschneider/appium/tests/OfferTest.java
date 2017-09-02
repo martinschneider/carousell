@@ -1,4 +1,4 @@
-package at.mschneider.appium;
+package at.mschneider.appium.tests;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

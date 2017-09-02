@@ -1,4 +1,4 @@
-package at.mschneider.appium.util;
+package at.mschneider.appium.utils;
 
 import at.mschneider.appium.components.CategoryPage;
 import at.mschneider.appium.components.DashboardPage;
