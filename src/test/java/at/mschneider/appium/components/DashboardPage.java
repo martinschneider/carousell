@@ -23,7 +23,7 @@ public class DashboardPage extends AbstractPage
     public CategoryPage openCategory(String categoryName)
     {
         $(byIdAndText(MENU_LINK, "BROWSE")).click();
-        scrollIntoView(CATEGORY_CONTAINER, "CARS").click();
+        scrollIntoView(CATEGORY_CONTAINER, categoryName).click();
         return PageFactory.categoryPage();
     }
 

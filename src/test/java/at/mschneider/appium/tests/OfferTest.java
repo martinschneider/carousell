@@ -36,7 +36,7 @@ public class OfferTest extends AppiumTest
         DashboardPage dashboard = login(username, password);
         assertThat(dashboard.getLoggedInUser()).isEqualTo(username);
 
-        OfferPage offer = dashboard.openCategory("Cars").openFirstItem().makeOffer().amount(offerAmount);
+        OfferPage offer = dashboard.openCategory("CARS").openFirstItem().makeOffer().amount(offerAmount);
         assertThat(offer.getAmount()).isEqualTo(offerAmount);
 
         offer.submit().confirm();
